@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login.html</title>
+
+    <link rel="stylesheet" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/card.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#btnLogin").click(function(){
+                location.href = "lista.html";
+            });
+
+            $("#btnSenha").click(function(){
+                location.href = "senha.html";
+            });
+
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container p-0 m-0">
+        <div class="row p-0 m-0">
+            <div id="splash" class="col s12">
+
+                <div class="col s12" id="logo">
+                    <img src="./assets/img/logo.png" class="col s10 offset-s1" />
+                </div>
+
+                <div class="col s12">
+                    <div class="col s8 center-align orange lighten-3 ml-15 " id="btnLogin">
+                        <p class="mt-15">Login</p>
+                    </div>
+    
+                    <div class="col s8 center-align orange lighten-3 ml-15 " id="btnSenha">
+                        <p class="mt-15">Senha</p>
+                    </div>
+    
+                    <div class="col s8 center-align orange lighten-3 ml-15 " id="btnEntrar">
+                        <p class="mt-15">Entrar</p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
